@@ -1,0 +1,50 @@
+h2 
+    margin-top: 50px
+    margin-bottom: 20px
+    font-size: 25px
+    color: $darkGrayishBlue
+    
+.overviewToday
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: repeat(8, 1fr)
+    justify-items: center
+    grid-row-gap: 15px
+    .status
+        background: $lightGrayishBlue
+        width: 100%
+        padding: 30px 0
+        border-radius: 12px
+        text-align: center
+        padding: 20px
+        .header
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-bottom: 20px
+            h4
+                color: $darkGrayishBlue
+        .datas
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .datas_numbers
+                font-size: 30px
+                font-weight: bold
+                color: $veryDarkBlue
+            .datas_percentage
+                display: flex
+                flex-direction: row-reverse
+                align-items: center
+                .datas_percentage-text
+                    color: $limeGreen
+                    font-weight: bold
+                    margin-left: 5px
+                .datas_percentage-textRed
+                    color: $brightRed
+                    font-weight: bold
+                    margin-left: 5px
+                img
+                    height: 5px
+                
+    
